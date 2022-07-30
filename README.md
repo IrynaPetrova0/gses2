@@ -2,7 +2,8 @@
 # GSES2-BTC-application
 
  API to track the exchange rate of BTC to the UAH and send it to subscribers.
- For sending emails was used free version of [SendinBlue](https://www.sendinblue.com/).
+ For sending emails was used free version of [SendinBlue](https://www.sendinblue.com/). 
+ 
 
 
 
@@ -17,6 +18,9 @@
 ```bash
   npm install  
 ```
+
+## WARNING
+ If SendinBlue api key expires, you need to generate a new one on the site.
     
 ## API Reference
 
