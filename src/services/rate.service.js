@@ -4,7 +4,7 @@ class RateService {
     getCurrentRate() {
         return new Promise((resolve, reject) => {
             https.get(`https://api.binance.com/api/v3/ticker/price?symbol=BTCUAH`, (response) => {
-                    let data = "";
+                    let data = ""
 
                     response.on("data", (chunk) => {
                         data += chunk;
