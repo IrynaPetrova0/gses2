@@ -1,0 +1,7 @@
+{
+  "mailing" :{
+    "sendGridApi" : "insertSendGridAPI",
+    "from" : "test@mail.com",
+    "subject" : "Current rate BTC to UAH"
+  }
+}
